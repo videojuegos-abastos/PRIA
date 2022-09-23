@@ -1,6 +1,6 @@
 # Programación en Red e Inteligencia Artificial (PRIA)
 
-1. Introducción a la Inteligencia Artificial
+1. [Introducción a la Inteligencia Artificial](https://github.com/videojuegos-abastos/PRIA/blob/main/te/t1_introduccion_a_la_inteligencia_artificial.md)
 
 2. Sistemas de Navegación Automática
 
