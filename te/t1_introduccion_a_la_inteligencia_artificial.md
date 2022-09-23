@@ -9,7 +9,7 @@ Llamamos **I**nteligencia **A**rtificial o **IA** a cualquier programa informát
 
 Como acabamos de definir, una IA es un programa informático que **simula** comportamiento inteligente, esto quiere decir que no tiene por qué "ser inteligente", puede ser un programa sencillo que sigue unas pocas reglas. Veamos un ejemplo:
 
-Imaginemos un juego de disparos por ejemplo y pongamos que nuestra IA controla a los enemigos. Estos tienen cien puntos de vida. Una estrategia a seguir pofría este conjunto de reglas.
+Imaginemos un juego de disparos por ejemplo y pongamos que nuestra IA controla a los enemigos. Estos tienen cien puntos de vida. Una estrategia a seguir podría ser este conjunto de reglas.
 
 1. Si tenemos < 10 puntos de vida: ESCONDERSE
 2. Si vemos al jugador: DISPARAR
@@ -30,7 +30,7 @@ Así de simple. Este comportamiento es muy sencillo de programar, como vemos la 
 
 Aunque en el ejemplo que hemos visto es muy fácil de predecir el comportamiento resultante, las reglas pueden aumentar y complicarse si tenemos más parámetros como por ejemplo la vida del jugador, la distancia que nos separa de él, el tipo de arma que llevamos, etc...
 
-Con esto, queremos explicar que esta técnica, aunque es muy básica puede dar muy buenos resultados, y nos puede servir en muchos casos, todo dependerá de qué necesitemos de la IA. Además, podemos hacer que algunas decisiones sean aleatorias para hacer más impredecible nuestro comportamiento. Por ejemplo si tenemos poca vida pero el jugador también podemos tomar la decisión de escondernos o disparar, esta decisión podría ser aleatoria.
+Con esto, queremos explicar que esta técnica, aunque es muy básica puede dar muy buenos resultados y nos puede servir en muchos casos, todo dependerá de qué necesitemos de la IA. Además, podemos hacer que algunas decisiones sean aleatorias para hacer más impredecible nuestro comportamiento. Por ejemplo si tenemos poca vida pero el jugador también, podemos tomar la decisión de escondernos o disparar, esta decisión podría ser aleatoria.
 
 Ahora que ya sabemos la definición de IA, podemos empezar a distinguir entre otros dos conceptos, **Machine Learning** y **Deep Learning**. Veremos primero el Machine Learning.
 
@@ -49,13 +49,15 @@ El objetivo no es otro que el de etiquetar imágenes.
 
 Antes de abordar el problema, tenemos que seguir definiendo cosas. Hemos de diferenciar entre la **Técnica de ML** que utilizamos y el **Tipo** de esa técnica.
 
+### Tipos de algoritmos de ML
+
 Simplificando un poco podemos clasificar los algoritmos de ML en 2 **Tipos**, el **Aprendizaje Supervisado** y el **Aprendizaje No Supervisado**.
 
 Entender las diferencias es sencillo, los algoritmos de **Aprendizaje Supervisado** utilizan información preprocesada para entrenarse.
 
 Por otro lado, los algoritmos de **Aprendizaje No Supervisado** NO utilizan información preprocesada.
 
-Volviendo al problema de antes, un algoritmo de aprendizaje supervisado, utilizaría imágenes etiquetadas por personas para entrenarse. Esto es información preprocesada ya que personas han tenido que etiquetar antes las imágenes.
+Volviendo al problema de antes, un algoritmo de aprendizaje supervisado, utilizaría imágenes etiquetadas por personas para entrenarse. Esto es información preprocesada ya que personas han tenido que etiquetar antes las imágenes. Una vez entrenado, el programa intentaría predecir otras imágenes no etiquetadas.
 
 <p align="center">
 <img src="img/ml_supervised.png" width="60%" />
@@ -69,7 +71,17 @@ Si utilizamos una técnica de aprendizaje NO supervisado, significa que para el 
 > Existen otros tipos como el **Aprendizaje por Refuerzo** o el **Aprendizaje Semisupervisado**.
 
 
+### Técnicas de ML
 
+Hay varias técnicas que podemos utilizar para que nuestro programa aprenda, dependiendo del problema que queramos resolver, unas nos darán mejores resultados que otras.
+
+> No vamos a verlas todas aunque podemos encontrar más ingormación [aquí](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico).
+
+Las que más nos interesan son los **Árboles de Decisiones**, los **Algoritmos Genéticos** y las **Redes Neuronales**. Siendo esta última técnica la más popular. No vamos a entrar demasiado en cómo funcionan porque son realmente complejas.
+
+#### Redes Neuronales
+
+Una **Red Neuronal Artificial** es una imitación informática del funcionamiento del cerebro humano. Esta, consiste en un conjunto de neuronas conectadas entre sí. Las neuronas se suelen agrupar en capas. El objetivo es ir poco a poco afinando algunos valores que contiene cada neurona para que 'aprenda' a resolver nuestro problema.
 
 
 
@@ -91,7 +103,7 @@ Si utilizamos una técnica de aprendizaje NO supervisado, significa que para el 
 
 ## Behaviour Trees (Árboles de comportamiento)
 
-Aunque no es exactamente igual, esta que hemos visto antes es un poco la idea de los **Behaviour Trees**. Son muy sencillos de entender, tenemos 3 tipos de nodos:
+Los **Behaviour Trees**, son una técnica muy utilizanda en inteligencia artificial. Son muy sencillos de entender, tenemos un árbol jerárquico con 3 tipos de nodos:
 
 * Nodo secuencia: Ejecuta las acciones de izquierda a derecha.
 * Nodo acción: Es una acción que podemos hacer.
