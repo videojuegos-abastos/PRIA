@@ -4,7 +4,7 @@
 
 2. Sistemas de Navegación Automática
 
-3. Comportamiento I: Máquinas de Estado Finitas
+3. [Comportamiento I: Máquinas de Estado Finitas](https://github.com/videojuegos-abastos/PRIA/blob/main/te/t4_arboles_de_comportamiento.md)
 
 4. Comportamiento II: Árboles de Comportamiento
 
