@@ -118,7 +118,7 @@ Como jugadores o usuarios de cualquier aplicación, hay algunas características
 
 Un algoritmo de **Pathfinding** es un algoritmo que tiene como objetivo encontrar un camino entre dos puntos. Hay muchos algoritmos que pueden funcionar mejor o peor en diferentes escenarios. Aunque lo ideal es encontrar el camino más corto, en los videojuegos es muy importante la rapidez de procesamiento. Esto hace que a lo largo de los años se hayan ido perfeccionando este tipo de algoritmos pero además, hace que en ciertos casos, la ruta que encontramos no sea la más corta.
 
-El algoritmo de Pathfinding más utilizado en los videojuegos es el [A*](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_A*) y podemos encontrarlo ya implementado. Esto es debido a que nos aporta muchas ventajas. Es rápido, suele encontrar el camino óptimo y es fácilmente 'personaizable'. Además, funciona muy bien en los escenarios de videojuegos.
+El algoritmo de Pathfinding más utilizado en los videojuegos es el [A*](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_A*) (pronunciado A Estrella) y podemos encontrarlo ya implementado. Esto es debido a que nos aporta muchas ventajas. Es rápido, suele encontrar el camino óptimo y es fácilmente 'personaizable'. Además, funciona muy bien en los escenarios de videojuegos.
 
 Por otro lado, tenemos el algoritmo de dijkstra o el de búsqueda en anchura, estos dos, siempre encuentran el camino óptimo pero son menos eficientes. A continuación podemos ver un ejemplo.
 
@@ -151,6 +151,8 @@ En el segundo, con dijkstra sí que encontramos el camino más corto pero a cost
 > Los algoritmos de dijkstra y de búsqueda en anchura no son algoritmos pensados para nuestros casos de uso, pero son más fáciles de entender y programar. El algoritmo A* es especialmente bueno y por lo general no usaremos ningún otro. Podemos variar su comportamiento cambiando la heurística y de hecho para que 'fallara' en este caso, hemos tenido que hacer 'trampa' y hemos ajustado el 'weight' a 2. A parte de estos, hay otros algoritmos basante 'mejores' que se acercan a la eficacia de A*.
 
 > En [este](https://qiao.github.io/PathFinding.js/visual/) enlace podeis probar diferentes algoritmos, es interesante ver cómo funcionan y intentar buscar qué debilidades y ventajas tiene cada uno.
+
+> Veremos más sobre pathfinding en el tema 2.
 
 
 
