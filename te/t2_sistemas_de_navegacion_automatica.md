@@ -3,9 +3,9 @@
 En este tema vamos a ver cómo implementar pathfinding en Unity. Obviamente, podemos implementarlo nosotros mismos desde cero, pero los motores de videojuegos existen por algo, Unity ha desarrollado los componentes NavMesh (Navigation Meshes), con estos es mucho más fácil, rápido y generalizado hacer funcionar nuestro sistema.
 
 Antes de nada, vamos a aclarar un par de cosas ya que aunque ya vimos el algoritmo A*, lo visualizamos funcionando en cuadrículas y puede que no entendamos cómo puede esto funcionar en un juego como el League of Legends por ejemplo.
-Una solucion es superponer una cuadrícula por toda la escena y marcar las casillas en las que hayan obstáculos y las que no. Si tuviésemos que implementarlo nosotros y necesitamos acabarlo rápido, podemos hacerlo así, pero esta solución ni es eficiente, ni se va aver bien.
+Una solución es superponer una cuadrícula por toda la escena y marcar las casillas en las que haya obstáculos y las que no. Si tuviésemos que implementarlo nosotros y necesitamos acabarlo rápido, podemos hacerlo así, pero esta solución ni es eficiente, ni se va a ver bien.
 
-Veamos cómo hacerlo bien. Realmente aunque para visualizarlo es más fácil con casillas, los algoritmo de pathfinding bien implementados trabajan con grafos. Un grafo es un conjunto de nodos conectados entre si.
+Veamos cómo hacerlo bien. Realmente aunque para visualizarlo es más fácil con casillas, los algoritmos de pathfinding bien implementados trabajan con grafos. Un grafo es un conjunto de nodos conectados entre si.
 
 <p align="center">
 <img src="img/pathfinding_graph.png" width="40%" />
@@ -27,7 +27,7 @@ Para representar nuestro escenario con grafos, conectaremos cada nodo con todos 
 
 </table>
 
-De este modo, si nuesto agente [*](#anexo) se encuentra en un nodo, podrá desplazarse a todos los nodos que tengan una conexión, independientemente de lo lejos o cerca que veamos los nodos a nivel visual. Los grafos NO representan espacialmente nuestra escena.
+De este modo, si nuestro agente [*](#anexo) se encuentra en un nodo, podrá desplazarse a todos los nodos que tengan una conexión, independientemente de lo lejos o cerca que veamos los nodos a nivel visual. Los grafos NO representan espacialmente nuestra escena.
 
 
 
@@ -43,7 +43,7 @@ Dividiremos la malla en **polígonos convexos**, estos tienen la propiedad de qu
 
 Ahora, ya podemos representar nuestra escena en forma de grafo, cada polígono será un nodo y estará conectado a sus polígonos adyacentes. Podemos ejecutar el algoritmo de pathfinding con este grafo y obtendremos los polígonos por los que nuestro agente tiene que pasar para llegar a su destino.
 
-Para desplazarse dentro de un polígono, como hemos visto, lo podemos hacer en línea recta, sabiendo esto solo nos quedará implementar el **Pathfollowing**, que no es más que la forma en la que nuesto agente sigue el camino. El componente 'Nav Mesh Agent' implementa esto. Veremos más detalles en clase.
+Para desplazarse dentro de un polígono, como hemos visto, lo podemos hacer en línea recta, sabiendo esto solo nos quedará implementar el **Pathfollowing**, que no es más que la forma en la que nuestro agente sigue el camino. El componente 'Nav Mesh Agent' implementa esto. Veremos más detalles en clase.
 
 
 

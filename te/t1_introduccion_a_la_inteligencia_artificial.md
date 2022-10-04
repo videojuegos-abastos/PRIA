@@ -5,8 +5,31 @@
 
 ## Historia y Evolución
 
+La Inteligencia Artificial o IA en adelante, es una disciplina científica que tiene como objetivo crear programas de computadora capaces de realizar tareas que requieren inteligencia humana.
+
+Los científicos Alan Turing y Ross Ashby empezaron a investigar si se podría construir una máquina capaz de resolver problemas y tomar decisiones de forma autónoma. Aunque sus esfuerzos se centraron en tareas simples, como el reconocimiento de objetos o el seguimiento de una línea, sus trabajos establecieron las bases para el desarrollo de la inteligencia artificial moderna.
+
+En 1956, John McCarthy organizó el primer seminario sobre inteligencia artificial en Dartmouth College. McCarthy fue el primero en utilizar el término "inteligencia artificial" y el seminario Dartmouth marcó el inicio de la inteligencia artificial como una disciplina científica.
+
+Desde entonces, la inteligencia artificial ha experimentado un rápido desarrollo. En 1997, el equipo de inteligencia artificial de IBM, Deep Blue, logró vencer al campeón mundial de ajedrez Garry Kasparov. En 2016, el equipo de inteligencia artificial AlphaGo de Google DeepMind logró vencer al campeón mundial de Go, Lee Sedol.
+
+El desarrollo de la inteligencia artificial se ha acelerado en la última década debido a la disponibilidad de datos masivos, el aumento de la potencia de computación y el desarrollo de nuevos algoritmos de aprendizaje automático.
+
+<p align="center">
+<img src="img/gigabyte_cost.jpg" width="80%" />
+</p>
+
+La inteligencia artificial se está utilizando cada vez más en aplicaciones prácticas, como el diagnóstico médico, el reconocimiento de voz y el control de tráfico. Se espera que esta tenga un impacto aún mayor en los próximos años y que cambie significativamente la forma en que vivimos y trabajamos.
 
 > La inteligencia artificial y los videojuegos han ido históricamente muy de la mano. Los juegos son un entorno perfecto no solo para pequeñas IAs que controlan enemigos sino también para entender y entrenar grandes proyectos de machine learning. Hay infinidad de ejemplos, algunos de los más conocidos son [Alpha Go](https://es.wikipedia.org/wiki/AlphaGo), [Alpha Zero](https://es.wikipedia.org/wiki/AlphaZero) o [OpenAI Five](https://openai.com/five/).
+
+Aunque la historia de la IA es interesante, mucho más lo es la actualidad, a día de hoy, podemos decir que estamos en uno de los mejores momentos ya que, cada poco tiempo salen mejoras o nuevas técnicas en diferentes campos de investigación. Seguramente conozcamos algunas IAs como DALL·E 2 que se ha puesto de moda estos días. Podemos seguir todas las novedades sin necesidad de leer 'papers' complejos en canales de divulgación en Castellano y Inglés.
+
+> ¡Algunos de los párrafos del texto anterior han sido generados con IA!
+>
+> <p align="center">
+> <img src="img/gpt-3.png" width="80%" />
+> </p>
 
 ## Modelos de IA
 
@@ -45,7 +68,7 @@ Como su nombre indica, **con machine learning, nos referimos a todas aquellas t�
 <img src="img/ai_scheme.png" width="80%" />
 </p>
 
-Un problema comunmente abordado con estas técnicas es la clasificación de imágenes.
+Un problema comúnmente abordado con estas técnicas es la clasificación de imágenes.
 El objetivo no es otro que el de etiquetar imágenes.
 
 <p align="center">
@@ -56,7 +79,7 @@ El objetivo no es otro que el de etiquetar imágenes.
 
 > A partir de ahora llamaremos **ML** al **M**achine **L**earning.
 
-Antes de entrar más en detalle, hemos de saber que el mundo de la Inteligencia Artificial es muy ámplio y complejo, esto significa que no vamos a ver ni mucho menos todo lo que existe ni tampoco entraremos demasiado en detalle en las técnicas.
+Antes de entrar más en detalle, hemos de saber que el mundo de la Inteligencia Artificial es muy amplio y complejo, esto significa que no vamos a ver ni mucho menos todo lo que existe ni tampoco entraremos demasiado en detalle en las técnicas.
 
 Para hacernos una idea, aquí tenemos un esquema que clasifica diferentes técnicas de IA. Como vemos, podemos dividir las técnicas de ML (aprendizaje automático) en subgrupos, nosotros solo distinguiremos entre Aprendizaje Supervisado y No Supervisado.
 
@@ -69,11 +92,11 @@ Para hacernos una idea, aquí tenemos un esquema que clasifica diferentes técni
 
 Simplificando un poco podemos clasificar los algoritmos de ML en 2 **Tipos**, el **Aprendizaje Supervisado** y el **Aprendizaje No Supervisado**.
 
-Entender las diferencias es sencillo, los algoritmos de **Aprendizaje Supervisado** utilizan información preprocesada para entrenarse.
+Entender las diferencias es sencillo, los algoritmos de **Aprendizaje Supervisado** utilizan información pre procesada para entrenarse.
 
-Por otro lado, los algoritmos de **Aprendizaje No Supervisado** NO utilizan información preprocesada.
+Por otro lado, los algoritmos de **Aprendizaje No Supervisado** NO utilizan información pre procesada.
 
-Volviendo al problema de antes, un algoritmo de aprendizaje supervisado, utilizaría imágenes etiquetadas por personas para entrenarse. Esto es información preprocesada ya que personas han tenido que etiquetar antes las imágenes. Una vez entrenado, el programa intentaría predecir otras imágenes no etiquetadas.
+Volviendo al problema de antes, un algoritmo de aprendizaje supervisado, utilizaría imágenes etiquetadas por personas para entrenarse. Esto es información pre procesada ya que personas han tenido que etiquetar antes las imágenes. Una vez entrenado, el programa intentaría predecir otras imágenes no etiquetadas.
 
 <p align="center">
 <img src="img/ml_supervised.png" width="60%" />
@@ -82,7 +105,7 @@ Volviendo al problema de antes, un algoritmo de aprendizaje supervisado, utiliza
 
 Si utilizamos una técnica de aprendizaje NO supervisado, significa que para el entrenamiento del modelo [*](#anexo), no hemos utilizado esta 'ventaja' de etiquetar imágenes previamente.
 
-> Lo ideal es que los datos estuviesen preprocesados, pero la realidad es que para muchos problemas eso no es viable.
+> Lo ideal es que los datos estuviesen pre procesados, pero la realidad es que para muchos problemas eso no es viable.
 
 > Existen otros tipos como el **Aprendizaje por Refuerzo** o el **Aprendizaje Semisupervisado**.
 
@@ -101,7 +124,7 @@ Una **Red Neuronal Artificial** es una imitación informática del funcionamient
 
 #### Algoritmos Genéticos
 
-Un **Algoritmo Genético** es un programa que, basándose en la evolución biológica, crea una población de indivíduos y los modifica de forma semialeatoria generación tras generación. Cada entidad de esta población es una posible solución a nuestro problema. A base de repeticiones, se van mutando y cruzando estas posibles soluciones consiguiendo mejores resultados.
+Un **Algoritmo Genético** es un programa que, basándose en la evolución biológica, crea una población de individuos y los modifica de forma semialeatoria generación tras generación. Cada entidad de esta población es una posible solución a nuestro problema. A base de repeticiones, se van mutando y cruzando estas posibles soluciones consiguiendo mejores resultados.
 
 #### Árboles de Comportamiento
 
@@ -114,13 +137,13 @@ Un **Árbol de Comportamiento** es un árbol definido que nos ayuda a tomar deci
 
 ## Pathfinding
 
-Como jugadores o usuarios de cualquier aplicación, hay algunas características en el funcionamiento de los programas, que si no lo pensamos, como son muchos los sitios en los que está implementada, damos por hecho que son cosas sencillas de hacer. En el caso de los juegos, estamos muy acostumbrados a que los enemigos o nuestro propio personaje sepan el camino que tienen que seguir sin chocar con ningún obstáculo. Esto es algo muy habitual que nos puede tocar implemetar en algún juego, es por eso mismo que esta técnica de Inteligencia Artificial sí que la vamos a ver más en detalle. 
+Como jugadores o usuarios de cualquier aplicación, hay algunas características en el funcionamiento de los programas, que si no lo pensamos, como son muchos los sitios en los que está implementada, damos por hecho que son cosas sencillas de hacer. En el caso de los juegos, estamos muy acostumbrados a que los enemigos o nuestro propio personaje sepan el camino que tienen que seguir sin chocar con ningún obstáculo. Esto es algo muy habitual que nos puede tocar implementar en algún juego, es por eso mismo que esta técnica de Inteligencia Artificial sí que la vamos a ver más en detalle. 
 
 Un algoritmo de **Pathfinding** es un algoritmo que tiene como objetivo encontrar un camino entre dos puntos. Hay muchos algoritmos que pueden funcionar mejor o peor en diferentes escenarios. Aunque lo ideal es encontrar el camino más corto, en los videojuegos es muy importante la rapidez de procesamiento. Esto hace que a lo largo de los años se hayan ido perfeccionando este tipo de algoritmos pero además, hace que en ciertos casos, la ruta que encontramos no sea la más corta.
 
 El algoritmo de Pathfinding más utilizado en los videojuegos es el [A*](https://es.wikipedia.org/wiki/Algoritmo_de_b%C3%BAsqueda_A*) (pronunciado A Estrella) y podemos encontrarlo ya implementado. Esto es debido a que nos aporta muchas ventajas. Es rápido, suele encontrar el camino óptimo y es fácilmente 'personaizable'. Además, funciona muy bien en los escenarios de videojuegos.
 
-Por otro lado, tenemos el algoritmo de dijkstra o el de búsqueda en anchura, estos dos, siempre encuentran el camino óptimo pero son menos eficientes. A continuación podemos ver un ejemplo.
+Por otro lado, tenemos el algoritmo de Dijkstra o el de búsqueda en anchura, estos dos, siempre encuentran el camino óptimo pero son menos eficientes. A continuación podemos ver un ejemplo.
 
 Para un mismo escenario, utilizando dos algoritmo diferentes, observamos dos resultados diferentes.
 
@@ -130,9 +153,9 @@ Para un mismo escenario, utilizando dos algoritmo diferentes, observamos dos res
 
 En el primer caso, vemos que A* comprueba pocas casillas pero no consigue encontrar el camino más corto.
 
-En el segundo, con dijkstra sí que encontramos el camino más corto pero a costa de comprobar muchas más casillas.
+En el segundo, con Dijkstra sí que encontramos el camino más corto pero a costa de comprobar muchas más casillas.
 
-> Las casillas en azúl son las que hemos comprobado.
+> Las casillas en azul son las que hemos comprobado.
 
 <table align="center">
 
@@ -143,12 +166,12 @@ En el segundo, con dijkstra sí que encontramos el camino más corto pero a cost
 
 <tr>
 <td><img src="img/pathfinding_a_star.png" width="100%" /></td>
-<td><img src="img/pathfinding_dijkstra.png" width="100%" /></td>
+<td><img src="img/pathfinding_Dijkstra.png" width="100%" /></td>
 </tr>
 
 </table>
 
-> Los algoritmos de dijkstra y de búsqueda en anchura no son algoritmos pensados para nuestros casos de uso, pero son más fáciles de entender y programar. El algoritmo A* es especialmente bueno y por lo general no usaremos ningún otro. Podemos variar su comportamiento cambiando la heurística y de hecho para que 'fallara' en este caso, hemos tenido que hacer 'trampa' y hemos ajustado el 'weight' a 2. A parte de estos, hay otros algoritmos basante 'mejores' que se acercan a la eficacia de A*.
+> Los algoritmos de Dijkstra y de búsqueda en anchura no son algoritmos pensados para nuestros casos de uso, pero son más fáciles de entender y programar. El algoritmo A* es especialmente bueno y por lo general no usaremos ningún otro. Podemos variar su comportamiento cambiando la heurística y de hecho para que 'fallara' en este caso, hemos tenido que hacer 'trampa' y hemos ajustado el 'weight' a 2. Aparte de estos, hay otros algoritmos basante 'mejores' que se acercan a la eficacia de A*.
 
 > En [este](https://qiao.github.io/PathFinding.js/visual/) enlace podeis probar diferentes algoritmos, es interesante ver cómo funcionan y intentar buscar qué debilidades y ventajas tiene cada uno.
 
