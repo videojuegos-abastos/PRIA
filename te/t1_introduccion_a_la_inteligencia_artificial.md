@@ -166,7 +166,7 @@ En el segundo, con Dijkstra sí que encontramos el camino más corto pero a cost
 
 <tr>
 <td><img src="img/pathfinding_a_star.png" width="100%" /></td>
-<td><img src="img/pathfinding_Dijkstra.png" width="100%" /></td>
+<td><img src="img/pathfinding_dijkstra.png" width="100%" /></td>
 </tr>
 
 </table>

@@ -47,7 +47,7 @@ Para desplazarse dentro de un polígono, como hemos visto, lo podemos hacer en l
 
 
 
-# Obstáculos estáticos y Dinámicos
+## Obstáculos estáticos y Dinámicos
 
 Como hemos dicho antes, existen obstáculos estáticos y dinámicos. Es mucho más eficiente que nuestro escenario sea estático, de esta forma podemos generar una estructura como la que hemos visto antes y utilizarla en tiempo de ejecución sin que esta cambie.
 
@@ -62,9 +62,9 @@ La otra forma que existe en Unity, no regenera la malla sino que tiene en cuenta
 Para más información sobre cómo funciona Unity a nivel interno, podemos consultar en la documentación oficial, [Inner Workings of the Navigation System](https://docs.unity3d.com/Manual/nav-InnerWorkings.html).
 
 
-# Práctica
+## Práctica
 
-## Materiales
+### Materiales
 
 * Proyecto sobre el que vamos a trabajar: https://github.com/videojuegos-abastos/nav-mesh-project
 * Podemos descargarlo también desde el Aula Virtual
@@ -76,7 +76,7 @@ Para más información sobre cómo funciona Unity a nivel interno, podemos consu
 > Aunque se puede descargar el proyecto oficial de Unity, es recomendable descargar el nuestro, ya que está adaptado a los conocimientos que tenemos y enfocado en el temario.
 
 
-# Anexo
+## Anexo
 
 * Agente: llamamos agente al objeto controlado por la IA.
 * Recursos: nos referimos a recursos computacionales, a la capacidad de procesamiento del dispositivo.
