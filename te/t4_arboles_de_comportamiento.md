@@ -53,3 +53,11 @@ Aunque no vamos a ver en detalle ningún algoritmo, sí que es interesante saber
 <p align="center">
 <img src="img/behaviour_tree_example.jpg" width="80%" />
 </p>
+
+# Práctica
+
+Al igual que las máquinas de estado, los árboles de comportamiento proporcionan a los diseñadores una forma simple de crear inteligencia. Para la práctica, en vez de programar lo que hemos visto, utilizaremos un paquete gratuito que nos facilita mucho las cosas.
+El paquete ha sido desarrollado por The Kiwi Coder.
+
+Enlace al paquete: https://thekiwicoder.com/behaviour-tree-editor/
+Para importar el paquete: Assets -> Import Package -> Custom Package
