@@ -60,4 +60,6 @@ Al igual que las máquinas de estado, los árboles de comportamiento proporciona
 El paquete ha sido desarrollado por The Kiwi Coder.
 
 Enlace al paquete: https://thekiwicoder.com/behaviour-tree-editor/
-Para importar el paquete: Assets -> Import Package -> Custom Package
+Introducción al paquete: https://www.youtube.com/watch?v=SgrG6uAZDHE
+
+> Para importar el paquete: Assets -> Import Package -> Custom Package
