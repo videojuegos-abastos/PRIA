@@ -30,7 +30,7 @@ Dejaremos las opciones por defecto para no complicar el proceso aunque podemos a
 Para comprobar que se ha instalado correctamente podemos ejecutar el comando `py` en la consola. Debería cambiar a la consola de python, podemos escribir `exit()` para salir.
 
 <p align="center">
-<img src="img/ml_py.png" width="100%" />
+<img src="img/ml_py.PNG" width="100%" />
 </p>
 
 A continuación vamos a crear un entorno virtual para poder tener diferentes proyectos y que los módulos y versiones no interfieran entre sí:
@@ -38,13 +38,13 @@ A continuación vamos a crear un entorno virtual para poder tener diferentes pro
 1. Desde la terminal, nos colocamos en el directorio del proyecto utilizando el comando `cd`.
 
 <p align="center">
-<img src="img/ml_py.png" width="100%" />
+<img src="img/ml_py.PNG" width="100%" />
 </p>
 
 2. Crearemos nuestro entorno virtual con `py -m venv venv`.
 
 <p align="center">
-<img src="img/ml_venv.png" width="100%" />
+<img src="img/ml_venv.PNG" width="100%" />
 </p>
 
 > El parámetro '-m' nos indica que vamos a correr un módulo de python, en este caso el venv. El segundo venv del comando es el nombre que le vamos a dar a nustro entorno, podemos escojer otro si queremos.
