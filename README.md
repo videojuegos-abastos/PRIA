@@ -6,9 +6,9 @@
 
 3. [Comportamiento I: Máquinas de Estado Finitas](https://github.com/videojuegos-abastos/PRIA/blob/main/te/t4_arboles_de_comportamiento.md)
 
-4. Comportamiento II: Árboles de Comportamiento
+4. [Comportamiento II: Árboles de Comportamiento](https://github.com/videojuegos-abastos/PRIA/blob/main/te/t4_arboles_de_comportamiento.md)
 
-5. Comportamiento III: ML-Agents
+5. [Comportamiento III: ML-Agents](https://github.com/videojuegos-abastos/PRIA/blob/main/te/t5_ml_agents.md)
 
 6. Introducción a las Redes
 
