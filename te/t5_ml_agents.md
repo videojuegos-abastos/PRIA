@@ -41,6 +41,8 @@ A continuación vamos a crear un entorno virtual para poder tener diferentes pro
 <img src="img/ml_py.PNG" width="100%" />
 </p>
 
+> También podemos abrir el PowerShell desde el explorador de archivos. Archivo -> Abrir Windows PowerShell. Como dependiendo del ordenador en el que trabajemos podemos o no tener habilitada la ejecucción de scripts, puede que tengamos que ejecutar algun comando como administrador. 
+
 2. Crearemos nuestro entorno virtual con `py -m venv venv`.
 
 <p align="center">
@@ -48,6 +50,9 @@ A continuación vamos a crear un entorno virtual para poder tener diferentes pro
 </p>
 
 > El parámetro '-m' nos indica que vamos a correr un módulo de python, en este caso el venv. El segundo venv del comando es el nombre que le vamos a dar a nustro entorno, podemos escojer otro si queremos.
+
+> En algunos casos tendremos que ejecutar el comando `Set-ExecutionPolicy Unrestricted` antes del siguiente paso para habilitar la ejecución del 'activate'.
+> Este comando tendremos que ejecutarlo en modo administrador.
 
 3. Entramos a nuestro entorno virtual `venv\Scripts\activate`.
 4. Actualizamos el paquete pip por si acaso aunque debería de estar actualizado. `python -m pip install --upgrade pip`
