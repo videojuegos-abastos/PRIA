@@ -33,6 +33,8 @@ De este modo, si nuestro agente [*](#anexo) se encuentra en un nodo, podrá desp
 
 ## Unity Navigation Meshes (NavMesh)
 
+> [Apuntes sobre cómo utilizar el NavMesh]((https://github.com/videojuegos-abastos/PRIA/blob/main/te/nav_mesh.md))
+
 Lo primero que hace Unity, es crear una malla (mesh) de los sitios por los que nuestro agente puede pasar. Esto, en general, lo haremos antes de ejecutar el juego siempre que los muros u obstáculos no se muevan y por ende esta malla vaya a ser siempre la misma.
 
 Dividiremos la malla en **polígonos convexos**, estos tienen la propiedad de que desde cualquier punto del polígono podemos ir a cualquier otro punto del mismo en línea recta.
