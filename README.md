@@ -21,6 +21,6 @@
 10. Gestión de servicios en Red para el Desarrollo de Servicios en Línea
 
    
-# Pathfinding en Unity
+## Pathfinding en Unity
 
-[Nav Mesh](https://github.com/videojuegos-abastos/PRIA/blob/main/te/nav_mesh.md)
+[PDF Nav Mesh](https://github.com/videojuegos-abastos/PRIA/blob/main/te/nav_mesh.md)
