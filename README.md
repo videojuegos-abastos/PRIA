@@ -23,4 +23,4 @@
    
 ## Pathfinding en Unity
 
-[PDF Nav Mesh](https://github.com/videojuegos-abastos/PRIA/blob/main/te/nav_mesh.md)
+[Documento Nav Mesh](https://github.com/videojuegos-abastos/PRIA/blob/main/te/nav_mesh.md)
