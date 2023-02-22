@@ -12,7 +12,7 @@
 
 6. Introducción a las Redes
 
-7. Programación en Red integrada en el Motor de Videojuegos
+7. [Programación en Red integrada en el Motor de Videojuegos](https://github.com/videojuegos-abastos/PRIA/blob/main/te/t7_programacion_en_red_integrada_en_el_motor_de_videojuegos.md)
 
 8. Programación en Red Cliente / Servidor
 
