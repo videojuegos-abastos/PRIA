@@ -6,6 +6,9 @@ En este documento veremos algunas claves para empezar a utilzizarlo.
 
 ## Documentación oficial
 
+
+Recientemente Unity has ha sacado un proyecto 2D de ejemplo que utiliza Netcode: [Galactic Kittens](https://github.com/UnityTechnologies/GalacticKittens). En [este tutorial de CodeMonkey](https://www.youtube.com/watch?v=JIN9BRNMtjI) nos explica cómo funciona.
+
 * [Documentación Netcode](https://docs-multiplayer.unity3d.com/netcode/current/about/index.html)
 * [Network Manager](https://docs-multiplayer.unity3d.com/netcode/current/components/networkmanager)
 * [Network Object](https://docs-multiplayer.unity3d.com/netcode/current/basics/networkobject)
@@ -69,7 +72,7 @@ Con Netcode for GameObjects, tendremos objetos que transmiten algún tipo de inf
 
 Si se cumplen estos requisitos, nos funcionarán correctamente.
 
-A parte de esta lista, en el `NetworkManager` tenemos un `PlayerPrefab`, este es el objeto que por defecto, se creará cuando un juegador se conecte.
+A parte de esta lista, en el `NetworkManager` tenemos un `PlayerPrefab`, este es el objeto que por defecto, se creará cuando un jugador se conecte.
 
 ## Anexo
 
